@@ -1,4 +1,4 @@
-import discord.py
+import discord
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -15,5 +15,6 @@ class MyClient(discord.Client):
 intents = discord.Intents.default()
 intents.message_content = True
 client = MyClient(intents=intents)
+
 # Token do bot
 client.run('MTM2NDU1ODczNjIxOTQ0MzI1MA.GBzj0n.xkYFlyTegf39TupfX5L0N4WoUiFCL0X96jn4kE')
