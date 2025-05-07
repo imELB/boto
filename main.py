@@ -17,4 +17,4 @@ intents.message_content = True
 client = MyClient(intents=intents)
 
 # Token do bot
-client.run('MTM2NDU1ODczNjIxOTQ0MzI1MA.GBzj0n.xkYFlyTegf39TupfX5L0N4WoUiFCL0X96jn4kE')
+client.run('token')
